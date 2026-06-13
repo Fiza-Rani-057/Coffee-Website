@@ -52,10 +52,10 @@
  .div2{
      background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
   url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200');
-  height: 450px;
+  height: 550px;
   width: 100%;
    background-size: cover;
-   padding-top: 200px;
+   padding-top: 250px;
     margin-bottom: 15px;
  }
  .p1{
@@ -64,6 +64,7 @@
      font-size: 18px;
     max-width: 500px;
      margin: 0 auto 25px;
+     margin-top: 25px;
  }
  .h2{
    font-size: 40px;
@@ -73,6 +74,7 @@
  }
  .btn{
     margin-left: 520px;
+    margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -105,18 +107,42 @@ margin-left: 170px;
     margin-left: 170px;
   }
   .h4{
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 150px;
     margin-bottom: 50px;
     font-size: 40px;
+    
   }
   #str1{
-   margin-left: 200px;
+   margin-left: 150px;
    margin-bottom: 50px;
-   font-size: 20px;
+   font-size: 25px;
+   
   }
   #p3{
   margin-top: 20px;
-
+  margin-left: 150px;
+   margin-bottom: 20px;
   }
+  .p4{
+   margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  }
+  .p5{
+    margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 20px;
  
+  }
+ #str2{
+   margin-left: 150px;
+   margin-bottom: 50px;
+   font-size: 25px;
+   
+ }
+ #str3{
+   margin-left: 150px;
+   margin-bottom: 50px;
+   font-size: 25px;
+ }
