@@ -257,3 +257,13 @@ margin-left: 170px;
   }
     /* div 4 end  */
    /* div 5 start  */
+   .div5{
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url(images/cofeee.webp);
+     height: 500px;
+  width: 100%;
+   background-size: cover;
+   margin-top: 300px;
+    margin-bottom: 15px;
+ }
+
