@@ -146,10 +146,12 @@ margin-left: 170px;
      right: 200px;
     }
     /* div 3 end  */
+    /* div 4 start  */
   .div4{
    height: 200px;
    width: 100%;
-   display: flex;
    margin-top: 50px;
   }
+  
+
   
