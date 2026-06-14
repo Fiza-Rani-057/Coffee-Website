@@ -87,6 +87,7 @@
     background-color: #d2a679;
     color: #3b2417;
     font-weight: bold;
+    border: 1px solid #d2a679;
  }
  .btn:hover{
     background-color: aliceblue;
@@ -150,8 +151,109 @@ margin-left: 170px;
   .div4{
    height: 200px;
    width: 100%;
-   margin-top: 50px;
+   margin-top: 100px;
   }
-  
-
-  
+  #h5{
+   margin-left: 400px;
+   margin-bottom: 50px;
+   font-size: 40px;
+  }
+  .h5{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   margin-right: 30px;
+   font-size: 20px;
+  }
+  #childidiv {
+   display: flex;
+  }
+  .childidv2{
+   height: 350px;
+   width: 600px;
+   background-color: white;
+   margin-bottom: 50px;
+   border: 8px solid #fdf6ec;
+   margin-left: 50px;
+   box-shadow: 2px 2px 20px #f0e5d6;
+  }
+  .childidv2:hover{
+   transform: scale(1.1);
+   transition: 0.3s ease-in-out;
+  }
+  #sarah{
+   height: 70px;
+   border-radius: 50%;
+   width: 70px;
+  margin-left: 100px;
+  margin-top: 30px;
+  }
+  .p5{
+   padding-left: 50px;
+   padding-right: 40px;
+  }
+  .childidv3{
+     height: 350px;
+   width: 600px;
+   background-color: white;
+   margin-bottom: 50px;
+   border: 8px solid #fdf6ec;
+   margin-left: 50px;
+   box-shadow: 2px 2px 20px #f0e5d6;
+  }
+  .childidv3:hover{
+    transform: scale(1.1);
+   transition: 0.3s ease-in-out;
+  }
+  .h6{
+     text-align: center;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   margin-right: 30px;
+   font-size: 20px;
+  }
+  .p6{
+   padding-left: 50px;
+   padding-right: 40px;
+  }
+  #james{
+   height: 70px;
+   border-radius: 50%;
+   width: 70px;
+  margin-left: 100px;
+  margin-top: 30px;
+  }
+  .childidv4{
+     height: 350px;
+   width: 600px;
+   background-color: white;
+   margin-bottom: 50px;
+   border: 8px solid #fdf6ec;
+   margin-left: 50px;
+   box-shadow: 2px 2px 20px #f0e5d6;
+   margin-right: 30px;
+  }
+  .childidv4:hover{
+   transform: scale(1.1);
+   transition: 0.3s ease-in-out;
+  }
+  .h7{
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   margin-right: 30px;
+   font-size: 20px;
+  }
+  .p7{
+     padding-left: 50px;
+   padding-right: 40px;
+  }
+  #sophia{
+    height: 70px;
+   border-radius: 50%;
+   width: 70px;
+  margin-left: 100px;
+  margin-top: 30px;
+  }
+    /* div 4 end  */
+   /* div 5 start  */
