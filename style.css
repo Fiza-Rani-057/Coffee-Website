@@ -76,7 +76,7 @@
   
  }
  .btn{
-    margin-left: 520px;
+    margin-left: 500px;
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -260,10 +260,23 @@ margin-left: 170px;
    .div5{
   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url(images/cofeee.webp);
-     height: 500px;
+     height: 450px;
   width: 100%;
    background-size: cover;
    margin-top: 300px;
     margin-bottom: 15px;
  }
-
+ .h8{
+   padding-top: 200px;
+   color: white;
+   margin-left: 350px;
+   margin-right: 130px;
+   font-size: 40px;
+ }
+  .p8{
+   color: aliceblue;
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
