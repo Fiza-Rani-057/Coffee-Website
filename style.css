@@ -320,7 +320,7 @@ margin-left: 170px;
   }
   .div6{
    height: 550px;
-   margin-bottom: 50px;
+   margin-bottom: 10px;
    width: 100%;
    background-color: #fad9aa;
    border-radius: 50px;
@@ -431,3 +431,11 @@ margin-left: 170px;
     box-shadow: 2px 2px 15px #ea9035;
    }
   
+  /* div 6 end  */
+   /* div 7 start  */
+   .div7{
+      height: 400px;
+      width: 100%;
+      background-color: #3b2417;
+      color: white;
+   }
