@@ -46,13 +46,31 @@
  font-size: 15px;
  /* margin-top: 8px; */
 }
- /* a:hover {
-    color:#d2a679 ;
- } */
-.header .navbar a:hover,
-.header .navbar a.active {
+ 
+  .header .navbar a:hover,
+  .header .navbar a.active {
     color: #d2a679;
+  }
+   header nav a{
+  position: relative;
+  text-decoration: none;
+  }
+
+  header nav a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px; 
+  width: 0;
+  height: 2px;
+  background-color: #d2a679;
+  transition: 0.3s;
 }
+
+header nav a:hover::after{
+  width: 100%;
+ }
+
 
  /* div 1 end  */
  /* div 2 Start  */
