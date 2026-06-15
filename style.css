@@ -314,41 +314,107 @@ margin-left: 170px;
   }
   #child3{
    display: flex;
-   margin-bottom: 10px;
-   margin-right: 100px;
-   margin-left: 100px;
+   margin-bottom: 15px;
+   margin-left: 150px;
+   margin-right: 50px;
+    gap: 20px;
   }
   .child4{
    display: flex;
-   margin-right: 100px;
-   margin-left: 100px;
+   margin-left: 150px;
+    margin-right: 50px;
+    gap: 20px;
   }
   #img1{
   height: 200px;
   width: 200px;
+  border: 9px solid #eec498;
+  box-shadow: 0px 0px 20px #ea9035;
+  
+  }
+  #img1:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 20px #ea9035;
+   
   }
    #img2{
    height: 200px;
   width: 200px;
+   border: 9px solid #eec498;
+   box-shadow: 0px 0px 10px #ea9035;
   }
-  
+   #img2:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+   }
+  #img7{
+   height: 200px;
+  width: 200px;
+   border: 9px solid #eec498;
+   box-shadow: 0px 0px 10px #ea9035;
+  }
+   #img7:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+   }
+  #img8{
+ height: 200px;
+  width: 200px;
+   border: 9px solid #eec498;
+    box-shadow: 0px 0px 10px #ea9035;
+  }
+   #img8:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+   }
  #img3{
   height: 200px;
   width: 200px;
+   border: 9px solid #eec498;
+   box-shadow: 0px 0px 10px #ea9035;
   }
+   #img3:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+   }
   
  #img4{
   height: 200px;
   width: 200px;
+   border: 9px solid #eec498;
+   box-shadow: 0px 0px 10px #ea9035;
   }
+ #img4:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+ }
   
  #img5{
   height: 200px;
   width: 200px;
+   border: 9px solid #eec498;
+  box-shadow: 0px 0px 10px #ea9035;
   }
-  
+   #img5:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+   }
  #img6{
  height: 200px;
   width: 200px;
+   border: 9px solid #eec498;
+  box-shadow: 0px 0px 10px #ea9035;
   }
+   #img6:hover{
+   transform: scale(1.1);
+   transition:  all 0.4s ease-in;
+    box-shadow: 2px 2px 15px #ea9035;
+   }
   
