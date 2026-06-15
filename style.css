@@ -307,10 +307,19 @@ margin-left: 170px;
   }
   /* div 5 end  */
   /* div 6 start  */
+  .h9{
+   text-align: center;
+   margin-bottom: 30px;
+   padding-top: 20px;
+   font-size: 40px;
+   letter-spacing: 2px;
+  }
   .div6{
-   height: 500px;
+   height: 550px;
+   margin-bottom: 50px;
    width: 100%;
    background-color: #fad9aa;
+   border-radius: 50px;
   }
   #child3{
    display: flex;
