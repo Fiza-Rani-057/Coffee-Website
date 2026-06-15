@@ -46,9 +46,13 @@
  font-size: 15px;
  /* margin-top: 8px; */
 }
- a:hover {
+ /* a:hover {
     color:#d2a679 ;
- }
+ } */
+.header .navbar a:hover,
+.header .navbar a.active {
+    color: #d2a679;
+}
 
  /* div 1 end  */
  /* div 2 Start  */
