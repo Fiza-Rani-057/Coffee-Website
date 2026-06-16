@@ -180,15 +180,15 @@ margin-left: 170px;
    width: 100%;
    margin-top: 100px;
    margin-top: 200px;
-   background-color: #795a47;
-   border-radius: 30px;
+   background-color:  #3b2417;
+   border-radius: 5px;
    padding-top: 30px;
   }
   #h5{
    margin-left: 400px;
    margin-bottom: 50px;
    font-size: 30px;
-   color: whitesmoke;
+   color: #f5d4a6;
    letter-spacing: 3px;
   }
   .h5{
@@ -204,11 +204,11 @@ margin-left: 170px;
   .childidv2{
    height: 350px;
    width: 600px;
-   background-color: white;
+   background-color: #edd6b5;
    margin-bottom: 50px;
-   border: 8px solid #fdf6ec;
+   border: 10px solid #f6ce93;
    margin-left: 50px;
-   box-shadow: 2px 2px 20px #f0e5d6;
+   box-shadow: 2px 2px 20px #f5d4a6;
   }
   .childidv2:hover{
    transform: scale(1.1);
@@ -228,11 +228,11 @@ margin-left: 170px;
   .childidv3{
      height: 350px;
    width: 600px;
-   background-color: white;
+   background-color: #edd6b5;
    margin-bottom: 50px;
-   border: 8px solid #fdf6ec;
+   border: 10px solid #f6ce93;
    margin-left: 50px;
-   box-shadow: 2px 2px 20px #f0e5d6;
+   box-shadow: 2px 2px 20px #f5d4a6;
   }
   .childidv3:hover{
     transform: scale(1.1);
@@ -259,11 +259,11 @@ margin-left: 170px;
   .childidv4{
      height: 350px;
    width: 600px;
-   background-color: white;
+   background-color: #edd6b5;
    margin-bottom: 50px;
-   border: 8px solid #fdf6ec;
+   border: 10px solid #f6ce93;
    margin-left: 50px;
-   box-shadow: 2px 2px 20px #f0e5d6;
+   box-shadow: 2px 2px 20px #f5d4a6;
    margin-right: 30px;
   }
   .childidv4:hover{
@@ -328,7 +328,7 @@ margin-left: 170px;
    margin-bottom: 10px;
    width: 100%;
    background-color: #fad9aa;
-   border-radius: 50px;
+   border-radius: 5px;
   }
   #child3{
    display: flex;
