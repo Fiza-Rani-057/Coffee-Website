@@ -533,6 +533,8 @@ margin-left: 170px;
 
   /* index page end  */
   /* About page start  */
+
+  /* div 8 start  */
   .div8{
      background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200');
@@ -544,10 +546,13 @@ margin-left: 170px;
   color:white;
    padding-top: 170px;
    text-align: center;
+   font-size: 30px;
  }
  .p14{
   color:white;
-   text-align: center;
+    margin-left: 250px;
    padding-top: 30px;
+   font-size: 20px;
  }
- 
+ /* div 8 end  */
+ /* div 9 start  */
