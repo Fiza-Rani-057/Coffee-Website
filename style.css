@@ -146,6 +146,7 @@ margin-left: 170px;
       width: 100%;
       background-size: cover;
       margin-bottom: 50px;
+       background-size: cover;
    }
    .h4{
       margin-top: 120px;
@@ -204,6 +205,7 @@ margin-left: 170px;
    background-color:  #3b2417;
    border-radius: 5px;
    padding-top: 30px;
+    background-size: cover;
   }
   #h5{
    margin-left: 400px;
@@ -350,6 +352,7 @@ margin-left: 170px;
    width: 100%;
    background-color: #fad9aa;
    border-radius: 5px;
+    background-size: cover;
   }
   #child3{
    display: flex;
@@ -466,6 +469,7 @@ margin-left: 170px;
       color: white;
       padding-top: 40px;
       margin-bottom: 10px;
+      background-size: cover;
    }
    .child5{
       display: flex;
@@ -529,4 +533,10 @@ margin-left: 170px;
 
   /* index page end  */
   /* About page start  */
- 
+  .div8{
+     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+  }
