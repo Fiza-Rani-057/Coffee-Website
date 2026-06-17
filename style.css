@@ -96,6 +96,7 @@ header nav a.active::after{
     max-width: 500px;
      margin: 0 auto 25px;
     margin-top: 15px;
+    margin-bottom: 40px;
  }
  .h2{
    font-size: 40px;
@@ -105,7 +106,7 @@ header nav a.active::after{
  }
  .btn{
     margin-left: 500px;
-    margin-top: 10px;
+    margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -556,13 +557,7 @@ margin-left: 170px;
    font-size: 15px;
    letter-spacing: 3px;
    padding-right: 100px;
- }
- #h2{
-    color:white;
-   padding-top: 150px;
-   text-align: center;
-   font-size: 13px;
-   letter-spacing: 3px;
+   margin-bottom: 30px;
  }
 
  /* div 8 end  */
@@ -591,9 +586,9 @@ margin-left: 170px;
    margin-left: 130px;
    margin-bottom: 100px;
   }
-   #button{
+   .btn{
     margin-left: 500px;
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -605,7 +600,7 @@ margin-left: 170px;
     font-weight: bold;
     border: 1px solid #d2a679;
  }
- #button:hover{
+  .btn:hover{
     background-color: aliceblue;
     cursor: pointer;
     box-shadow: 0px 0px 9px white;
@@ -650,3 +645,13 @@ margin-left: 170px;
    font-size: 15px;
    letter-spacing: 2px;
  }
+  /* section 9 end  */
+
+  /* Contact page start  */
+  .div10{
+     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1200');
+     height: 400px;
+      width: 100%;
+    background-size: cover;
+  }
