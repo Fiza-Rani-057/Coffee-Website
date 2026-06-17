@@ -542,8 +542,10 @@ margin-left: 170px;
     height: 400px;
     width: 100%;
     background-size: cover;
+    padding-top: 150px;
   }
  #h13{
+  padding-top: 100px;
   color:white;
    padding-top: 20px;
    text-align: center;
@@ -648,10 +650,26 @@ margin-left: 170px;
   /* section 9 end  */
 
   /* Contact page start  */
+    /* div 10 start  */
   .div10{
      background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url('https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1200');
      height: 400px;
       width: 100%;
     background-size: cover;
+    padding-top: 170px;
+  }
+  .h17{
+    color: white;
+     padding-left: 450px;
+   margin-top: 15px;
+   font-size: 28px;
+   letter-spacing: 2px;
+  }
+  .h18{
+    color: white;
+     padding-left: 270px;
+   margin-top: 20px;
+   font-size: 15px;
+   letter-spacing: 2px;
   }
