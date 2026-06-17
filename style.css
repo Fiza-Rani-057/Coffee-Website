@@ -746,7 +746,7 @@ margin-left: 170px;
    .div12{
       background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url(images/bg\ img.jpg);
-    height: 500px;
+    height: 400px;
       width: 100%;
     background-size: cover;
     padding-top: 170px;
@@ -772,11 +772,11 @@ margin-left: 170px;
     font-weight: bold;
    }
    .p19{
-     color: white;
+      color: #f1f1f1;
        font-style: oblique;
      padding-left: 300px;
      padding-right: 300px;
-     padding-top: 120px;
+     padding-top: 70px;
    margin-top: 20px;
    font-size: 15px;
    letter-spacing: 2px;
