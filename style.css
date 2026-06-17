@@ -542,17 +542,29 @@ margin-left: 170px;
     width: 100%;
     background-size: cover;
   }
- .h13{
+ #h13{
   color:white;
-   padding-top: 170px;
+   padding-top: 20px;
    text-align: center;
+   letter-spacing: 2px;
    font-size: 30px;
  }
- .p14{
+ #p14{
   color:white;
-    margin-left: 250px;
+    margin-left: 200px;
    padding-top: 30px;
-   font-size: 20px;
+   font-size: 15px;
+   letter-spacing: 3px;
+   padding-right: 100px;
  }
+ #h2{
+    color:white;
+   padding-top: 150px;
+   text-align: center;
+   font-size: 13px;
+   letter-spacing: 3px;
+ }
+
  /* div 8 end  */
  /* div 9 start  */
+  
