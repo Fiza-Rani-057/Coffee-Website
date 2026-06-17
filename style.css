@@ -738,5 +738,47 @@ margin-left: 170px;
       margin-left: 520px;
      }
   /* section 11 end  */
-  
+
    /* contact page end  */
+   /* Menu page start  */
+
+   /* div 12 start  */
+   .div12{
+      background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url(images/bg\ img.jpg);
+    height: 500px;
+      width: 100%;
+    background-size: cover;
+    padding-top: 170px;
+      position: relative;
+    text-align: center;
+   }
+   .div12::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+   .h20{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+   }
+   .p19{
+     color: white;
+       font-style: oblique;
+     padding-left: 300px;
+     padding-right: 300px;
+     padding-top: 120px;
+   margin-top: 20px;
+   font-size: 15px;
+   letter-spacing: 2px;
+   text-align: center;
+   }
