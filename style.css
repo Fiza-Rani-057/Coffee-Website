@@ -678,6 +678,17 @@ margin-left: 170px;
   }
    /* div 10 end  */
    /* section 11 start  */
+     #div11{
+   background-color: #d2a679;
+     height: 400px;
+     padding-top: 50px;
+     padding-bottom: 300px;
+     margin-left: 200px;
+     margin-right: 200px;
+     align-items: center;
+     margin-bottom: 10px;
+    
+   }
    .h19{
      padding-left: 450px;
    margin-top: 20px;
@@ -698,13 +709,13 @@ margin-left: 170px;
       display: block;
      }
      label{
-    margin-left: 400px;
+    margin-left: 200px;
     font-size: 13px;
     padding-bottom: 20px;
      padding-top: 20px;
      }
      #name{
-      margin-left: 400px;
+      margin-left: 170px;
       padding-right: 250px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -713,7 +724,7 @@ margin-left: 170px;
       margin-bottom: 10px;
      }
      #email{
-       margin-left: 400px;
+       margin-left:170px;
       padding-right: 250px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -722,7 +733,7 @@ margin-left: 170px;
       margin-bottom: 10px;
      }
      #message{
-       margin-left: 400px;
+       margin-left: 170px;
       padding-right: 250px;
       padding-top: 10px;
       padding-bottom: 70px;
@@ -731,9 +742,13 @@ margin-left: 170px;
       margin-top: 10px;
      }
      #btn{
-      margin-top: 10px;
+      margin-top: 5px;
       margin-bottom: 50px;
-      margin-left: 520px;
+      margin-left: 330px;
+      background-color: #f4efef;
+     }
+     #btn:hover{
+      background-color: #d2a679;
      }
   /* section 11 end  */
 
@@ -759,7 +774,7 @@ margin-left: 170px;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.4);
-}
+ }
    .h20{
      position: absolute;
     top: 50%;
