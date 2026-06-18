@@ -665,17 +665,16 @@ margin-left: 170px;
    margin-top: 15px;
    font-size: 28px;
    letter-spacing: 2px;
-   font-style: italic;
+  
   }
   .h18{
        color: #EAEAEA;
-       font-style: oblique;
      padding-left: 300px;
      padding-right: 300px;
    margin-top: 20px;
    font-size: 15px;
-   letter-spacing: 2px;
    text-align: center;
+   line-height: 23px;
   }
    /* div 10 end  */
    /* section 11 start  */
@@ -683,12 +682,11 @@ margin-left: 170px;
      padding-left: 450px;
    margin-top: 20px;
    font-size: 40px;
-   letter-spacing: 2px;
     margin-bottom: 30px;
     font-style: italic;
+   
    }
    #p18{
-     /* padding-right: 300px; */
      padding-left: 250px;
      font-style: italic;
     font-size: 15px;
@@ -770,15 +768,20 @@ margin-left: 170px;
     color: white;
     font-size: 3rem;
     font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
    }
    .p19{
       color: #f1f1f1;
        font-style: oblique;
      padding-left: 300px;
      padding-right: 300px;
-     padding-top: 70px;
+     padding-top: 100px;
    margin-top: 20px;
    font-size: 15px;
    letter-spacing: 2px;
    text-align: center;
+   }
+   span{
+    color: #eec498;
    }
