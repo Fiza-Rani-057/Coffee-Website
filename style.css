@@ -299,22 +299,19 @@ margin-left: 170px;
       display: flex;
       flex-direction: column;
     }
-    #responsibe2{
-   position: fixed;
-   left: 0;
-    }
+  
     .headhead5{
       margin-left: 0;
     font-size: 20px;
     }
     #childdivv2{
-      height: 350px;
+      height: 330px;
       width: 300px;
       padding-left: 50px;
       padding-right: 20px;
     }
     #pp5{
-     
+
       margin-left: 0;
       padding-left: 0;
       margin-right: 0;
@@ -327,16 +324,21 @@ margin-left: 170px;
  padding-left: 0;
  padding-right: 30px;
     }
-    #sara{
-      position: inherit;
-     right:50px;
-     margin-left: 0;
-    }
-}
+   #heading5{
+     margin-right: 30em;
+     font-size: 10%;
+   }
+    #childdivv3{
+      height: 330px;
+      width: 300px;
+      padding-left: 50px;
+      padding-right: 20px;
+   }
+  }
   #h5{
-   margin-left: 400px;
-   margin-bottom: 50px;
-   font-size: 30px;
+   margin-left: 25rem;
+   margin-bottom: 2rem;
+   font-size: 2rem;
    color: #f5d4a6;
    letter-spacing: 3px;
   }
@@ -448,9 +450,8 @@ margin-left: 170px;
    margin-top: 20px;
     margin-bottom: 15px;
  }
-
  .h8{
-   padding-top: 140px;
+  padding-top: 10%;
    color: white;
    margin-left: 350px;
    margin-right: 130px;
