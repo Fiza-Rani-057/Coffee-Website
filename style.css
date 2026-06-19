@@ -296,14 +296,41 @@ margin-left: 170px;
   @media only screen and (max-width:468px){
     #divv4{
       margin-top: 600px;
+      display: flex;
+      flex-direction: column;
     }
     #responsibe2{
    position: fixed;
    left: 0;
     }
-    .heading5{
+    .headhead5{
       margin-left: 0;
     font-size: 20px;
+    }
+    #childdivv2{
+      height: 350px;
+      width: 300px;
+      padding-left: 50px;
+      padding-right: 20px;
+    }
+    #pp5{
+     
+      margin-left: 0;
+      padding-left: 0;
+      margin-right: 0;
+     padding-right: 0;
+    padding-bottom: 10px;
+    }
+    #hh5{
+ margin-left: 0;
+ font-size: 18px;
+ padding-left: 0;
+ padding-right: 30px;
+    }
+    #sara{
+      position: inherit;
+     right:50px;
+     margin-left: 0;
     }
 }
   #h5{
