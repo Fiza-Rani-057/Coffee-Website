@@ -27,9 +27,21 @@
     padding-top: 10px;
     z-index: 999;
 }
+ @media only screen and (max-width:468px){
+  #divv1{
+    height: 100px;
+    position: fixed;
+     z-index: 999;
+  }
+ }
  .h1 {
     margin-left: 20px;
  }
+  @media  only screen and (max-width: 468px) {
+    .h1{
+   margin-left: 130px;
+    }
+  }
 .header{
     display: flex;
     position: fixed;
@@ -43,14 +55,31 @@
     top: 25px;
    gap: 25px;
     z-index: 9999;
-
-   
 }
+ @media only screen and (max-width:468px){
+  .navbar{
+   position: fixed;
+   right: 510px;
+   top: 70px;
+  }
+  #menu{
+    position: fixed;
+    left: 100px;
+  }
+  #about{
+    position: fixed;
+    right: 670px;
+  }
+   #contact{
+  position: fixed;
+  right: 480px;
+ }
+ }
   a{
   color: aliceblue;
  text-decoration: none;
  font-size: 15px;
-}
+} 
  
   .header .navbar a:hover,
   .header .navbar a.active {
@@ -89,6 +118,22 @@ header nav a.active::after{
    padding-top: 250px;
     margin-bottom: 100px;
  }
+ @media only screen and (max-width:468px){
+   #h2{
+    font-size: 30px;
+   }
+   #p1{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+  #btnn{
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 180px;
+  }
+   }
  .p1{
     text-align: center;
     color: aliceblue;
@@ -123,6 +168,25 @@ header nav a.active::after{
     cursor: pointer;
  }
   /* div 2 End  */
+  @media only screen and (max-width:468px){
+    #h3{
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    #pp2{
+      font-size: 15px;
+     text-align: left;
+     margin-bottom: 0px;
+     margin-left: 50px;
+     margin-right: 20px;
+    }
+    #pp3{
+      margin-left: 50px;
+      margin-right: 20px;
+     line-height: 25px;
+    }
+  }
   .h3{
     color: #3b2417;
     font-size: 40px;
@@ -149,6 +213,27 @@ margin-left: 170px;
       margin-bottom: 50px;
        background-size: cover;
    }
+   @media only screen and (max-width:468px){
+    #divv3{
+      display: flex;
+      flex-direction: column;
+    }
+    #hh4{
+   font-size: 25px;
+   padding-left: 40px;
+   margin-top: 10;
+    }
+    #pp4{
+      font-size: 15px;
+      padding-left: 30px;
+      padding-right: 0;
+      padding-bottom: 25px;
+    }
+   .cupp{
+  padding-left: 50px;
+    width: 300px;
+   }
+   }
    .h4{
       margin-top: 120px;
       font-size: 35px;
@@ -172,7 +257,7 @@ margin-left: 170px;
       margin-right: 100px;
       margin-bottom: 100px;
        position: relative;
-    z-index: 1;
+       z-index: 1;
    }
    #cup {
     animation: float 3s ease-in-out infinite;
@@ -208,6 +293,19 @@ margin-left: 170px;
    padding-top: 30px;
     background-size: cover;
   }
+  @media only screen and (max-width:468px){
+    #divv4{
+      margin-top: 600px;
+    }
+    #responsibe2{
+   position: fixed;
+   left: 0;
+    }
+    .heading5{
+      margin-left: 0;
+    font-size: 20px;
+    }
+}
   #h5{
    margin-left: 400px;
    margin-bottom: 50px;
