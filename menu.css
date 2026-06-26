@@ -1,0 +1,210 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+  #divv1{
+  background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+ url(images/menu\ bg.webp);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 100px;
+ }
+ .navbar{
+   text-align: center;
+   padding-top: 30px;
+   display: flex;
+   gap: 20px;
+   padding-left: 10px;
+ }
+
+  .navimg{
+    height: 30px;
+    width: 40px;
+  }
+ .head1{
+  font-size: 25px;
+  color: white;
+   margin-right: 140px;
+   font-family: "BabyNight", sans-serif;
+ }
+ @font-face {
+    font-family: "BabyNight";
+    src: url("fonts/BabyNight.ttf");
+}
+
+ a{
+    text-decoration: none;
+    color: rgb(239, 238, 238);
+    font-size: 15px;
+    font-family: "BabyNight", sans-serif;
+  font-weight: lighter;
+ }
+ .navbar a{
+    position: relative;
+    display: inline-block; 
+    text-decoration: none;
+    color: white;
+}
+.navbar a{
+    position: relative;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    width: 0;
+    height: 2px;
+    background-color: #c8a97e;
+    transition: width 0.5s ease;
+}
+
+.navbar a:hover{
+    color: #c8a97e;
+}
+
+.navbar a:hover::after{
+    width: 100%;
+}
+
+.navbar a.active{
+    color: #c8a97e;
+}
+
+.navbar a.active::after{
+    width: 100%;
+}
+
+
+   .btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   color: #3b2f2f;
+   font-weight: bold;
+    margin-left: 320px;
+   margin-bottom: 20px;
+    border-radius: 10px;
+     box-shadow: 0px 0px 10px aliceblue;
+     border: 2px solid aliceblue;
+  }
+  .btn:hover{
+   background-color: #85602f;
+   cursor: pointer;
+   box-shadow: 0px 0px 20px aliceblue;
+    
+  }
+
+   /* footer start  */
+
+  .div7{
+   height: 350px;
+   margin-bottom: 48px;
+   width: 100%;
+   background-color: #795526;
+   padding-right: 20%;
+  }
+
+  .divv7{
+    display: flex;
+  }
+  .child8{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+  }
+  .fhead1,.fhead2,.fhead3,.fhead4{
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "BabyNight", sans-serif;
+  }
+  .fhead2,.fhead3,.fhead4{
+    margin-left: 60px;
+  }
+  .para9{
+     color: rgb(240, 240, 240, 0.8);
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 10px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   .child9{
+     color: rgb(240, 240, 240, 0.8);
+    text-align: left;
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+     padding-left: 100px;
+   }
+   #p4,#p5,#p6,#p8,#p9{
+    margin-bottom: 20px;
+    margin-top: 10px;
+   }
+   #p1,#p2,#p3{
+     margin-bottom: 20px;
+    margin-top: 10px;
+   }
+ .child10{
+  color: rgb(240, 240, 240, 0.8);
+    text-align: left;
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+     padding-left: 100px;
+ }
+ .icon{
+  display: flex;
+ }
+ #contactsdiv{
+   color: rgb(240, 240, 240, 0.8);
+    text-align: left;
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+   padding-left: 70px;
+ }
+.icon{
+    min-height: 30px;
+    width: 1149px;
+    background-color: #4e381b;
+    margin-top: 102px;
+    padding-bottom: 10px;
+    background-size: cover;
+    display: block;
+}
+
+#paraa {
+  margin-left: 420px; 
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  word-spacing: 5px;
+}
+
+
+   /* footer end  */
