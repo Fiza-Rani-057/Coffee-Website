@@ -111,30 +111,27 @@
 
    .h1{
      color: aliceblue;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 80px;
     margin-top: 15px;
-    /* font-family: "BabyNight", sans-serif; */
     letter-spacing: 1px;
    }
    .h2{
    color: #c8a97e;
-    font-size: 40px;
+    font-size: 70px;
     margin-left: 80px;
-  /* font-family: "BabyNight", sans-serif; */
    letter-spacing: 1px;
    }
 
    #par1{
      text-align: left;
-    padding-left: 150px;
+    padding-left: 100px;
     margin-top: 30px;
     line-height: 25px;
  font-family: "Armelie";
   color: #D9A15B;
     font-size: 20px;
     letter-spacing: 1px;
-    margin-left: 10px;
   margin-top: 50px;
 }
    
@@ -155,6 +152,45 @@
     margin-top: 20px;
     background-color: rgb(105, 74, 37);
   }
+
+
+    
+@keyframes smoothFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes smoothFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#btn, .par2 {
+  animation: smoothFadeUp 1.3s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+}
+
+.h1, .h2{
+  opacity: 0; 
+  animation: smoothFadeUp 1.3s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+  animation-delay: 0.3s; 
+}
+
+.btn, .navbar {
+  opacity: 0;
+  animation: smoothFadeUp 1.3s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+  animation-delay: 0.5s; 
+}
    /* footer start  */
 
   .div7{
