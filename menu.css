@@ -21,18 +21,16 @@
    text-align: center;
    padding-top: 30px;
    display: flex;
-   gap: 20px;
+   flex-wrap: wrap;
+   gap: 25px;
    padding-left: 10px;
  }
 
-  .navimg{
-    height: 30px;
-    width: 40px;
-  }
+ 
  .head1{
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-   margin-right: 140px;
+   margin-right: 200px;
    font-family: "BabyNight", sans-serif;
  }
  @font-face {
@@ -176,7 +174,7 @@
     transform: translateY(0);
   }
 }
-#btn, .par2 {
+#btn, .par2 , #par1{
   animation: smoothFadeUp 1.3s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
 }
 
